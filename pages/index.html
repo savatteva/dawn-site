@@ -4,9 +4,239 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>DAWN</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style/global.css">
+  <link rel="stylesheet" href="../style/index.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
 </head>
 <body>
-  
+
+  <!--HEADER-->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid gap-5 align-items-center py-4">
+        <a class="navbar-brand" href="./index.html">
+          <img 
+          src="../assets/images/logo.png"
+          alt="Логотип магазина"
+          >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Bags
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Shop all</a></li>
+                <li><a class="dropdown-item" href="#">Tote bags</a></li>
+                <li><a class="dropdown-item" href="#">Shoulder bags</a></li>
+                <li><a class="dropdown-item" href="#">Crossbody bags</a></li>
+                <li><a class="dropdown-item" href="#">Top handle bags</a></li>
+                <li><a class="dropdown-item" href="#">Mini bags</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Shoes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Shop all</a></li>
+                <li><a class="dropdown-item" href="#">Boot</a></li>
+                <li><a class="dropdown-item" href="#">Loafers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lookbook</a>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <ul class="d-flex gap-4">
+            <li class="list-group-item">
+              <a class="" href="">
+                <img 
+                src="../assets/icons/search.svg"
+                alt="Иконка поиска">
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="" href="">
+                <img 
+                src="../assets/icons/person.svg"
+                alt="Иконка поиска">
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="" href="">
+                <img 
+                src="../assets/icons/cart.svg"
+                alt="Иконка поиска">
+              </a>
+              <span class="badge bg-primary rounded-pill">2</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--END OF HEADER-->
+
+  <main>
+
+    <!--FIRST SECTION - COVER-->
+    <section class="container-fluid cover text-white d-flex justify-content-center align-items-center">
+      <div class="bg-black-opacity-50">
+        <div class="d-flex justify-content-center  align-items-center flex-column p-4">
+          <h1 class="display-2 m-3">Industrial design meets fashion</h1>
+          <p>Atypical leather goods</p>
+          <button type="button" class="btn btn-cover m-3">Add to cart</button>
+        </div>
+      </div>
+    </section>
+    <!--END OF FIRST SECTION - COVER-->
+
+    <!--SECOND SECTION - HEADING-->
+    <section class="p-5">
+      <div class="container text-center">
+        <h2 class="display-5 my-4">Obsessive Attention. Intelligent Effort.</h2>
+        <p class="">Functional handbags made of luxurious and honest materials to improve people's lives in small but mighty ways.</p>
+      </div>
+    </section>
+    <!--END OF SECOND SECTION - HEADING-->
+
+    <!--THIRD SECTION - LIST OF ITEMS-->
+    <section class="container-fluid my-5">
+      <div class="d-flex gap-4 flex-wrap">
+        <div>
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img 
+            class="img-fluid"
+            src="../assets/images/hobo-small.png"
+            alt="Фотография товара hobo small">
+            <div class="my-3">
+              <p class="body-text2">Hobo Small</p>
+              <p>$195.00 CAD</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a class="link-underline link-dark link-underline-opacity-0" href="#"> 
+            <img 
+            class="img-fluid"
+            src="../assets/images/be-soft.png"
+            alt="Фотография товара be soft">
+            <div class="my-3">
+              <p class="body-text2">Be Soft Strap</p>
+              <p>$195.00 CAD</p>
+            </div>
+          </a> 
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-xl-3 col-sm-6 col-md-6">
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img
+            class="img-fluid"
+            src="../assets/images/hobo-medium.png"
+            alt="Фотография товара hobo medium">
+            <div class="my-3">
+              <p class="body-text2">Hobo medium</p>
+              <p>$195.00 CAD</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-md-6">
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img
+            class="img-fluid"
+            src="../assets/images/be-soft-strap.png"
+            alt="Фотография товара be soft strap">
+            <div class="my-3">
+              <p class="body-text2">Be Soft Strap</p>
+              <p>$195.00 CAD</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-md-6">
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img
+            class="img-fluid"
+            src="../assets/images/hobo-small.png"
+            alt="Фотография товара hobo large">
+            <div class="my-3">
+              <p class="body-text2">Hobo Large</p>
+              <p>$615.00 CAD</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-md-6">
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img
+            class="img-fluid"
+            src="../assets/images/storml.png"
+            alt="Фотография товара storml">
+            <div class="my-3">
+              <p class="body-text2">Storml</p>
+              <p>$195.00 CAD</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-md-6">
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img
+            class="img-fluid"
+            src="../assets/images/hobo-small-rounded.png"
+            alt="Фотография товара hobo small rounded">
+            <div class="my-3">
+              <p class="body-text2">Hobo Small Rounded</p>
+              <p>$195.00 CAD</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-md-6">
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img
+            class="img-fluid"
+            src="../assets/images/storml-new.png"
+            alt="Фотография товара storml new">
+            <div class="my-3">
+              <p class="body-text2">Storml New</p>
+              <p>$215.00 CAD</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-md-6">
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img
+            class="img-fluid"
+            src="../assets/images/be-soft-strap-multiple.png"
+            alt="Фотография товара be soft strap multiple">
+            <div class="my-3">
+              <p class="body-text2">Be Soft Strap Multiple</p>
+              <p>$415.00 CAD</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-md-6">
+          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+            <img
+            class="img-fluid"
+            src="../assets/images/hobo-large-rounded.png"
+            alt="Фотография товара hobo large rounded">
+            <div class="my-3">
+              <p class="body-text2">Hobo Large</p>
+              <p>$415.00 CAD</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--END OF THIRD SECTION - LIST OF ITEMS-->
+  </main>
 </body>
 </html>

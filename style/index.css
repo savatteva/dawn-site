@@ -1,0 +1,19 @@
+.cover {
+  background-image: url(../assets/images/cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
+}
+
+.btn-cover {
+  padding: 16px;
+  color: white;
+  border: 1px solid white;
+  border-radius: none !important;
+}
+
+.bg-black-opacity-50 {
+  background-color: black;
+  opacity: 0.5;
+  max-width: fit-content;
+}
