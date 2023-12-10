@@ -1,0 +1,18 @@
+.search-form {
+  height: 3rem;
+  width: 35rem;
+  padding: 0 1rem;
+}
+
+@media (max-width: 600px) {
+  .search-form {
+    height: 3rem;
+    padding: 0 1rem;
+    width: auto;
+  }
+}
+
+.search-btn {
+  height: 3rem;
+  width: 7rem;
+}

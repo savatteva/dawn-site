@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "img": "../assets/images/index/hobo-small.png",
+    "name": "Hobo small",
+    "category": "Tote bags",
+    "color": "Latte",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "195.00"
+  },
+
+  {
+    "id": 2,
+    "img": "../assets/images/index/be-soft.png",
+    "name": "Be Soft",
+    "category": "Tote bags",
+    "color": "Olive Leaf",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "195.00"
+  },
+
+  {
+    "id": 3,
+    "img": "../assets/images/index/hobo-medium.png",
+    "name": "Hobo medium",
+    "category": "Shoulder bags",
+    "color": "Latte",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "195.00"
+  },
+
+  {
+    "id": 4,
+    "img": "../assets/images/index/be-soft-strap.png",
+    "name": "Be Soft Strap",
+    "category": "Shoulder bags",
+    "color": "Pastel",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "195.00"
+  },
+
+  {
+    "id": 5,
+    "img": "../assets/images/index/be-soft-strap.png",
+    "name": "Hobo Large",
+    "category": "Crossbody bags",
+    "color": "Pastel",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "615.00"
+  },
+
+  {
+    "id": 6,
+    "img": "../assets/images/index/storml.png",
+    "name": "Storml",
+    "category": "Mini bags",
+    "color": "Olive Leaf",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "195.00"
+  },
+
+  {
+    "id": 7,
+    "img": "../assets/images/index/hobo-small-rounded.png",
+    "name": "Hobo Small Rounded",
+    "category": "Mini bags",
+    "color": "Pastel",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "195.00"
+  },
+
+  {
+    "id": 8,
+    "img": "../assets/images/index/storml-new.png",
+    "name": "Storml New",
+    "category": "Top handle bags",
+    "color": "Chocolate",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "215.00"
+  },
+
+  {
+    "id": 9,
+    "img": "../assets/images/index/be-soft-strap-multiple.png",
+    "name": "Be Soft Strap Multiple",
+    "category": "Mini bags",
+    "color": "Pastel",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "415.00"
+  },
+
+  {
+    "id": 10,
+    "img": "../assets/images/index/hobo-large-rounded.png",
+    "name": "Hobo Large Rounded",
+    "category": "Top handle bags",
+    "color": "Olive Leaf",
+    "description": "Inspired by the structural boxy form and shape of a brick, which lends its name, the bag is perfectly sized for your everyday essentials, from a large phone to your wallet and lipstick.",
+    "price": "415.00"
+  }
+]

@@ -10,8 +10,7 @@
   <link rel="stylesheet" href="../style/global.css">
   <link rel="stylesheet" href="../style/index.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
-  <script src="../javascript/cart.js" defer></script>
-  <script src="../javascript/goods.js" defer></script>
+  <script src="../javascript/script.js" defer></script>
 </head>
 <body>
   <!--HEADER-->
@@ -34,16 +33,23 @@
                 Bags
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item dropdown-item-view" href="#">Shop all</a></li>
-                <li><a class="dropdown-item dropdown-item-view" href="#" data-field="category">Tote bags</a></li>
-                <li><a class="dropdown-item dropdown-item-view" href="#" data-field="category">Shoulder bags</a></li>
-                <li><a class="dropdown-item dropdown-item-view" href="#" data-field="category">Crossbody bags</a></li>
-                <li><a class="dropdown-item dropdown-item-view" href="#" data-field="category">Top handle bags</a></li>
-                <li><a class="dropdown-item dropdown-item-view" href="#" data-field="category">Mini bags</a></li>
+                <li><a class="dropdown-item" href="#">Shop all</a></li>
+                <li><a class="dropdown-item" href="#">Tote bags</a></li>
+                <li><a class="dropdown-item" href="#">Shoulder bags</a></li>
+                <li><a class="dropdown-item" href="#">Crossbody bags</a></li>
+                <li><a class="dropdown-item" href="#">Top handle bags</a></li>
+                <li><a class="dropdown-item" href="#">Mini bags</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/about.html">About</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Shoes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Shop all</a></li>
+                <li><a class="dropdown-item" href="#">Boot</a></li>
+                <li><a class="dropdown-item" href="#">Loafers</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/lookbook.html">Lookbook</a>
@@ -53,7 +59,7 @@
         <div>
           <ul class="d-flex gap-4">
             <li class="list-group-item">
-              <a class="" href="../pages/search.html">
+              <a class="" href="">
                 <img 
                 src="../assets/icons/index/search.svg"
                 alt="Иконка поиска">
@@ -82,59 +88,11 @@
   <!--END OF HEADER-->
 
   <main>
-    <!--FIRST SECTION - COVER-->
-    <section class="container-fluid cover text-white d-flex justify-content-center align-items-center">
-      <div class="bg-black-opacity-50">
-        <div class="d-flex justify-content-center  align-items-center flex-column p-4">
-          <h1 class="display-2 m-3">Industrial design meets fashion</h1>
-          <p>Atypical leather goods</p>
-          <button type="button" class="btn btn-cover m-3">Add to cart</button>
-        </div>
-      </div>
-    </section>
-    <!--END OF FIRST SECTION - COVER-->
 
-    <!--SECOND SECTION - HEADING-->
-    <section class="p-5">
-      <div class="container text-center">
-        <h2 class="display-5 my-4">Obsessive Attention. Intelligent Effort.</h2>
-        <p class="">Functional handbags made of luxurious and honest materials to improve people's lives in small but mighty ways.</p>
-      </div>
-    </section>
-    <!--END OF SECOND SECTION - HEADING-->
+    <section></section>
 
-    <!--THIRD SECTION - LIST OF ITEMS-->
-    <section class="container-fluid my-5 list-of-goods">
-      <ul class="row list-style-none">
-        <li class="col-3 list-of-items__hover">
-            <a class="link-underline link-dark link-underline-opacity-0" href="#">
-              <article id="1">
-                <img 
-                class="img-fluid back-in-stock__bags"
-                src="../assets/images/index/hobo-small.png"
-                alt="Фотография товара hobo small">
-                <div class="my-3">
-                  <p class="body-text2">Hobo Small</p>
-                  <p>$195.00 CAD</p>
-                </div>
-              </article>
-            </a>
-        </li>
-        <li class="col-3 list-of-items__hover">
-            <a class="link-underline link-dark link-underline-opacity-0" href="#"> 
-              <article id="2">
-                <img 
-                class="img-fluid back-in-stock__bags"
-                src="../assets/images/index/be-soft.png"
-                alt="Фотография товара be soft">
-                <div class="my-3">
-                  <p class="body-text2">Be Soft</p>
-                  <p>$195.00 CAD</p>
-                </div>
-              </article>
-            </a>
-        </li>
-      </ul>
+    <section class="container-fluid my-5">
+      <h2 class="my-5">You may also like</h2>
       <ul class="row list-style-none">
         <li class="col-3 list-of-items__hover">
           <a class="link-underline link-dark link-underline-opacity-0" href="#">
@@ -250,84 +208,7 @@
         </li>
       </ul>
     </section>
-    <!--END OF THIRD SECTION - LIST OF ITEMS-->
-
-    <!--FOURTH SECTION - BACK IN STOCK-->
-    <section class="container-fluid my-5">
-      <h3 class="my-5">Back in stock</h3>
-      <div class="row">
-        <div class="col-8">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
-            <img
-            class="img-fluid back-in-stock__bags"
-            src="../assets/images/index/back-in-stock-bags.png"
-            alt="Обложка для сумок">
-            <div class="back-in-stock__caption">
-              <p>Bags</p>
-              <img 
-              src="../assets/icons/index/arrow-right.svg"
-              alt="иконка вперед"
-              >
-            </div>
-          </a>
-        </div>
-        <div class="col d-flex flex-column justify-content-between">
-          <div class="row">
-            <a class="link-underline link-dark link-underline-opacity-0" href="#">
-              <img
-              class="img-fluid back-in-stock__bags"
-              src="../assets/images/index/back-in-stock-shoes.png"
-              alt="Обложка для обуви">
-              <div class="back-in-stock__caption">
-                <p>Shoes</p>
-                <img 
-                src="../assets/icons/index/arrow-right.svg"
-                alt="иконка вперед"
-                >
-              </div>
-            </a>
-          </div>
-          <div class="row">
-            <a class="link-underline link-dark link-underline-opacity-0 photo__relative" href="#">
-              <img
-              class="img-fluid back-in-stock__bags"
-              src="../assets/images/index/mini-eddy.png"
-              alt="Обложка для сумок">
-              <div class="photo__absolute">
-                <p>Mini Eddy</p>
-                <p>$375.00 CAD</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--END OF FOURTH SECTION - BACK IN STOCK-->
-
-    <!--FIFTH SECTION - REVIEWS-->
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col p-5 d-flex justify-content-center flex-column align-items-center">
-          <img 
-          class="img-fluid my-3"
-          src="../assets/images/index/logo-refinary.png"
-          alt="Логотип Refinary"
-          >
-          <p class="text-center">"The leather is sourced from environmentally friendly tanneries in Italy, France, and Turkey, where Rure is based and everything is assembled by hand."</p>
-        </div>
-        <div class="col p-5 d-flex justify-content-center flex-column align-items-center">
-          <img 
-          class="img-fluid my-3"
-          src="../assets/images/index/logo-cut.png"
-          alt="Логотип Refinary"
-          >
-          <p class="text-center">"All too often, we're forced to pick: style, or sustainability. Recently, more designers have been making environmental impact a top priority"</p>
-        </div>
-      </div>
-    </section>
-    <!--END OF FIFTH SECTION - REVIEWS-->
   </main>
-
   <!--FOOTER-->
   <footer class="container-fluid">
     <div class="row">
