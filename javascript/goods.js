@@ -40,8 +40,7 @@ const getData = () => {
   };
 
   navItem.forEach((i) => {
-    i.addEventListener('click', (e) => {
-      e.preventDefault();
+    i.addEventListener('click', () => {
       const linkValue = i.textContent;
       const category = i.getAttribute('data-field');
       getInfo(linkValue, category);
