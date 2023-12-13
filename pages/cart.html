@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="../style/global.css">
   <link rel="stylesheet" href="../style/index.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
-  <script src="../javascript/script.js" defer></script>
+  <script src="../javascript/collection.js" defer></script>
+  <script src="../javascript/cart.js" defer></script>
 </head>
 <body>
   <!--HEADER-->
@@ -29,27 +30,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Bags
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Shop all</a></li>
-                <li><a class="dropdown-item" href="#">Tote bags</a></li>
-                <li><a class="dropdown-item" href="#">Shoulder bags</a></li>
-                <li><a class="dropdown-item" href="#">Crossbody bags</a></li>
-                <li><a class="dropdown-item" href="#">Top handle bags</a></li>
-                <li><a class="dropdown-item" href="#">Mini bags</a></li>
+                <li><a class="dropdown-item dropdown-item-link" href="../pages/collection.html" data-field="category">Shop all</a></li>
+                <li><a class="dropdown-item dropdown-item-link" href="../pages/collection.html" data-field="category">Tote bags</a></li>
+                <li><a class="dropdown-item dropdown-item-link" href="../pages/collection.html" data-field="category">Shoulder bags</a></li>
+                <li><a class="dropdown-item dropdown-item-link" href="../pages/collection.html" data-field="category">Crossbody bags</a></li>
+                <li><a class="dropdown-item dropdown-item-link" href="../pages/collection.html" data-field="category">Top handle bags</a></li>
+                <li><a class="dropdown-item dropdown-item-link" href="../pages/collection.html" data-field="category">Mini bags</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Shoes
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">
+                About
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Shop all</a></li>
-                <li><a class="dropdown-item" href="#">Boot</a></li>
-                <li><a class="dropdown-item" href="#">Loafers</a></li>
-              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/lookbook.html">Lookbook</a>
@@ -216,10 +212,7 @@
           <h4 class="my-3">Quick links</h4>
           <ul class="navbar-nav">
             <li class="my-2">
-              <a class="link-underline link-dark link-underline-opacity-0 photo__relative" href="#">Bags</a>
-            </li>
-            <li class="my-2">
-              <a class="link-underline link-dark link-underline-opacity-0 photo__relative" href="#">Shoes</a>
+              <a class="link-underline link-dark link-underline-opacity-0 photo__relative" href="../pages/collection.html">Bags</a>
             </li>
             <li class="my-2">
               <a class="link-underline link-dark link-underline-opacity-0 photo__relative" href="../pages/lookbook.html">Lookbook</a>
@@ -234,9 +227,6 @@
             </li>
             <li class="my-2">
               <a class="link-underline link-dark link-underline-opacity-0 photo__relative" href="../pages/contact.html">Contact us</a>
-            </li>
-            <li class="my-2">
-              <a class="link-underline link-dark link-underline-opacity-0 photo__relative" href="#">Shipping policy</a>
             </li>
           </ul>
         </div>
