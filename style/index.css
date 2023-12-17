@@ -58,3 +58,7 @@
 .list-style-none {
   list-style: none;
 }
+
+.text-information {
+  display: block !important;
+}

@@ -1,0 +1,14 @@
+.line-cart {
+  height: 0.1rem;
+  width: 100%;
+  background-color: #D0D0D0;
+}
+
+.cart-checkout {
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: inherit;
+  padding: 1rem;
+  width: 25%;
+}

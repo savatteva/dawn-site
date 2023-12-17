@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="../style/global.css">
   <link rel="stylesheet" href="../style/index.css">
+  <link rel="stylesheet" href="../style/cart.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
   <script src="../javascript/collection.js" defer></script>
   <script src="../javascript/cart.js" defer></script>
@@ -85,13 +86,36 @@
 
   <main>
 
-    <section></section>
+    <section class="container-fluid my-5">
+      <div>
+        <div class="d-flex justify-content-between align-items-center">
+          <h1 class="display-2">Your cart</h1>
+          <p><a class="link-opacity-100 link-dark" href="../pages/collection.html">Continue shopping</a></p>
+        </div>
+        <div class="row my-5">
+          <div class="row my-2 d-flex justify-content-between">
+            <div class="col-8 text-uppercase text-start">product</div>
+            <div class="col text-uppercase text-center">quantity</div>
+            <div class="col text-uppercase text-end">total</div>
+          </div>
+          <div class="line-cart"></div>
+        </div>
+        <div class="row">
+          <div class="line-cart"></div>
+          <div class="col d-flex flex-column text-end gap-3 my-2 align-items-end">
+            <h5 class="subtotal">Subtotal $561.00 CAD</h5>
+            <p>Taxes and shipping calculated at checkout</p>
+            <button class="cart-checkout">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="container-fluid my-5">
-      <h2 class="my-5">You may also like</h2>
+      <h2 class="my-5 display-5">You may also like</h2>
       <ul class="row list-style-none">
         <li class="col-3 list-of-items__hover">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+          <a class="link-underline link-dark link-underline-opacity-0" href="../pages/product_page.html">
             <article id="3">
               <img
               class="img-fluid back-in-stock__bags"
@@ -105,7 +129,7 @@
           </a>
         </li>
         <li class="col-3 list-of-items__hover">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+          <a class="link-underline link-dark link-underline-opacity-0" href="../pages/product_page.html">
             <article id="4">
               <img
               class="img-fluid back-in-stock__bags"
@@ -119,7 +143,7 @@
           </a>
         </li>
         <li class="col-3 list-of-items__hover">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+          <a class="link-underline link-dark link-underline-opacity-0" href="../pages/product_page.html">
             <article id="5">
               <img
               class="img-fluid back-in-stock__bags"
@@ -133,7 +157,7 @@
           </a>
         </li>
         <li class="col-3 list-of-items__hover">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+          <a class="link-underline link-dark link-underline-opacity-0" href="../pages/product_page.html">
             <article id="6">
               <img
               class="img-fluid back-in-stock__bags"
@@ -147,7 +171,7 @@
           </a>
         </li>
         <li class="col-3 list-of-items__hover">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+          <a class="link-underline link-dark link-underline-opacity-0" href="../pages/product_page.html">
             <article id="7">
               <img
               class="img-fluid back-in-stock__bags"
@@ -161,7 +185,7 @@
           </a>
         </li>
         <li class="col-3 list-of-items__hover">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+          <a class="link-underline link-dark link-underline-opacity-0" href="../pages/product_page.html">
             <article id="8">
               <img
               class="img-fluid back-in-stock__bags"
@@ -175,7 +199,7 @@
           </a>
         </li>
         <li class="col-3 list-of-items__hover">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+          <a class="link-underline link-dark link-underline-opacity-0" href="../pages/product_page.html">
             <article id="9">
               <img
               class="img-fluid back-in-stock__bags"
@@ -189,7 +213,7 @@
           </a>
         </li>
         <li class="col-3 list-of-items__hover">
-          <a class="link-underline link-dark link-underline-opacity-0" href="#">
+          <a class="link-underline link-dark link-underline-opacity-0" href="../pages/product_page.html">
             <article id="10">
               <img
               class="img-fluid back-in-stock__bags"

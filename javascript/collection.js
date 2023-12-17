@@ -19,7 +19,7 @@ const getGoods = () => {
       
       itemContainer.classList.add('col-3', 'list-of-items__hover');
       itemContainer.innerHTML = `
-      <a class="link-underline link-dark link-underline-opacity-0" href="/pages/product_page/${item.id}.html">
+      <a class="link-underline link-dark link-underline-opacity-0" href="/pages/product_page/html">
         <article id=${item.id}}>
             <img
             class="img-fluid back-in-stock__bags"
